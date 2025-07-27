@@ -1,0 +1,38 @@
+/* Правильный импорт Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Кастомные стили */
+body {
+  background-color: #f0f0f0;
+  font-family: 'Instrument Sans', Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+.custom-btn {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  box-shadow: none;
+  border-bottom: none;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Кастомные стили */
+.custom-btn {
+    @apply px-4 py-2 rounded transition-colors;
+}
+
+.custom-btn-primary {
+    @apply bg-blue-500 text-white hover:bg-blue-600;
+}
+
+.custom-btn-secondary {
+    @apply bg-gray-200 text-gray-800 hover:bg-gray-300;
+}
