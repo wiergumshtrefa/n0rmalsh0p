@@ -36,3 +36,15 @@ h1 {
 .custom-btn-secondary {
     @apply bg-gray-200 text-gray-800 hover:bg-gray-300;
 }
+
+.product-image {
+    width: 300px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}

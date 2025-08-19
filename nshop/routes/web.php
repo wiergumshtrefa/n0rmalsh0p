@@ -22,3 +22,7 @@ Route::get('/profile', [App\Http\Controllers\ProfileController::class, 'show'])-
 use App\Http\Controllers\ProfileController;
 
 Route::get('/profile', [ProfileController::class, 'show'])->name('profile')->middleware('auth');
+
+Route::get('/catalog', function () {
+    return view('catalog');
+})->name('catalog');

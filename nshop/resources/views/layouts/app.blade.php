@@ -20,6 +20,11 @@
                 </a>
 
                 <div class="flex items-center space-x-4">
+                    <!-- Добавляем кнопку Каталог -->
+                    <a href="{{ route('catalog') }}" class="px-4 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700">
+                        Каталог
+                    </a>
+
                     @guest
                         @if (Route::has('login'))
                             <a href="{{ route('login') }}" class="px-4 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700">
