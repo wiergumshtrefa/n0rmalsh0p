@@ -25,6 +25,11 @@
                         Каталог
                     </a>
 
+                    <!-- Добавляем кнопку Корзина -->
+                    <a href="{{ route('cart') }}" class="px-4 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700">
+                        Корзина
+                    </a>
+
                     @guest
                         @if (Route::has('login'))
                             <a href="{{ route('login') }}" class="px-4 py-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700">

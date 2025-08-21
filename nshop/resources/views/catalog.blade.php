@@ -18,9 +18,12 @@
                 </div>
                 <div class="flex justify-between items-center mt-auto">
                     <span class="text-xl font-bold">35 000 ₽</span>
-                    <button class="bg-blue-500 text-white px-3 py-1 rounded text-sm hover:bg-blue-600">
-                        В корзину
-                    </button>
+                    <form action="{{ route('cart.add', 1) }}" method="POST" class="inline">
+                        @csrf
+                        <button type="submit" class="bg-blue-500 text-white px-3 py-1 rounded text-sm hover:bg-blue-600">
+                            В корзину
+                        </button>
+                    </form>
                 </div>
             </div>
 
@@ -35,9 +38,12 @@
                 </div>
                 <div class="flex justify-between items-center mt-auto">
                     <span class="text-xl font-bold">42 000 ₽</span>
-                    <button class="bg-blue-500 text-white px-3 py-1 rounded text-sm hover:bg-blue-600">
-                        В корзину
-                    </button>
+                    <form action="{{ route('cart.add', 2) }}" method="POST" class="inline">
+                        @csrf
+                        <button type="submit" class="bg-blue-500 text-white px-3 py-1 rounded text-sm hover:bg-blue-600">
+                            В корзину
+                        </button>
+                    </form>
                 </div>
             </div>
 
@@ -52,9 +58,12 @@
                 </div>
                 <div class="flex justify-between items-center mt-auto">
                     <span class="text-xl font-bold">8 900 ₽</span>
-                    <button class="bg-blue-500 text-white px-3 py-1 rounded text-sm hover:bg-blue-600">
-                        В корзину
-                    </button>
+                    <form action="{{ route('cart.add', 3) }}" method="POST" class="inline">
+                        @csrf
+                        <button type="submit" class="bg-blue-500 text-white px-3 py-1 rounded text-sm hover:bg-blue-600">
+                            В корзину
+                        </button>
+                    </form>
                 </div>
             </div>
 
@@ -69,9 +78,12 @@
                 </div>
                 <div class="flex justify-between items-center mt-auto">
                     <span class="text-xl font-bold">29 900 ₽</span>
-                    <button class="bg-blue-500 text-white px-3 py-1 rounded text-sm hover:bg-blue-600">
-                        В корзину
-                    </button>
+                    <form action="{{ route('cart.add', 4) }}" method="POST" class="inline">
+                        @csrf
+                        <button type="submit" class="bg-blue-500 text-white px-3 py-1 rounded text-sm hover:bg-blue-600">
+                            В корзину
+                        </button>
+                    </form>
                 </div>
             </div>
 
@@ -86,9 +98,12 @@
                 </div>
                 <div class="flex justify-between items-center mt-auto">
                     <span class="text-xl font-bold">55 000 ₽</span>
-                    <button class="bg-blue-500 text-white px-3 py-1 rounded text-sm hover:bg-blue-600">
-                        В корзину
-                    </button>
+                    <form action="{{ route('cart.add', 5) }}" method="POST" class="inline">
+                        @csrf
+                        <button type="submit" class="bg-blue-500 text-white px-3 py-1 rounded text-sm hover:bg-blue-600">
+                            В корзину
+                        </button>
+                    </form>
                 </div>
             </div>
 
@@ -103,9 +118,12 @@
                 </div>
                 <div class="flex justify-between items-center mt-auto">
                     <span class="text-xl font-bold">12 500 ₽</span>
-                    <button class="bg-blue-500 text-white px-3 py-1 rounded text-sm hover:bg-blue-600">
-                        В корзину
-                    </button>
+                    <form action="{{ route('cart.add', 6) }}" method="POST" class="inline">
+                        @csrf
+                        <button type="submit" class="bg-blue-500 text-white px-3 py-1 rounded text-sm hover:bg-blue-600">
+                            В корзину
+                        </button>
+                    </form>
                 </div>
             </div>
 
@@ -120,9 +138,12 @@
                 </div>
                 <div class="flex justify-between items-center mt-auto">
                     <span class="text-xl font-bold">89 000 ₽</span>
-                    <button class="bg-blue-500 text-white px-3 py-1 rounded text-sm hover:bg-blue-600">
-                        В корзину
-                    </button>
+                    <form action="{{ route('cart.add', 7) }}" method="POST" class="inline">
+                        @csrf
+                        <button type="submit" class="bg-blue-500 text-white px-3 py-1 rounded text-sm hover:bg-blue-600">
+                            В корзину
+                        </button>
+                    </form>
                 </div>
             </div>
 
@@ -137,9 +158,12 @@
                 </div>
                 <div class="flex justify-between items-center mt-auto">
                     <span class="text-xl font-bold">54 900 ₽</span>
-                    <button class="bg-blue-500 text-white px-3 py-1 rounded text-sm hover:bg-blue-600">
-                        В корзину
-                    </button>
+                    <form action="{{ route('cart.add', 8) }}" method="POST" class="inline">
+                        @csrf
+                        <button type="submit" class="bg-blue-500 text-white px-3 py-1 rounded text-sm hover:bg-blue-600">
+                            В корзину
+                        </button>
+                    </form>
                 </div>
             </div>
 
@@ -154,9 +178,12 @@
                 </div>
                 <div class="flex justify-between items-center mt-auto">
                     <span class="text-xl font-bold">119 000 ₽</span>
-                    <button class="bg-blue-500 text-white px-3 py-1 rounded text-sm hover:bg-blue-600">
-                        В корзину
-                    </button>
+                    <form action="{{ route('cart.add', 9) }}" method="POST" class="inline">
+                        @csrf
+                        <button type="submit" class="bg-blue-500 text-white px-3 py-1 rounded text-sm hover:bg-blue-600">
+                            В корзину
+                        </button>
+                    </form>
                 </div>
             </div>
 
@@ -171,9 +198,12 @@
                 </div>
                 <div class="flex justify-between items-center mt-auto">
                     <span class="text-xl font-bold">99 900 ₽</span>
-                    <button class="bg-blue-500 text-white px-3 py-1 rounded text-sm hover:bg-blue-600">
-                        В корзину
-                    </button>
+                    <form action="{{ route('cart.add', 10) }}" method="POST" class="inline">
+                        @csrf
+                        <button type="submit" class="bg-blue-500 text-white px-3 py-1 rounded text-sm hover:bg-blue-600">
+                            В корзину
+                        </button>
+                    </form>
                 </div>
             </div>
 
@@ -188,9 +218,12 @@
                 </div>
                 <div class="flex justify-between items-center mt-auto">
                     <span class="text-xl font-bold">32 000 ₽</span>
-                    <button class="bg-blue-500 text-white px-3 py-1 rounded text-sm hover:bg-blue-600">
-                        В корзину
-                    </button>
+                    <form action="{{ route('cart.add', 11) }}" method="POST" class="inline">
+                        @csrf
+                        <button type="submit" class="bg-blue-500 text-white px-3 py-1 rounded text-sm hover:bg-blue-600">
+                            В корзину
+                        </button>
+                    </form>
                 </div>
             </div>
 
@@ -205,9 +238,12 @@
                 </div>
                 <div class="flex justify-between items-center mt-auto">
                     <span class="text-xl font-bold">45 000 ₽</span>
-                    <button class="bg-blue-500 text-white px-3 py-1 rounded text-sm hover:bg-blue-600">
-                        В корзину
-                    </button>
+                    <form action="{{ route('cart.add', 12) }}" method="POST" class="inline">
+                        @csrf
+                        <button type="submit" class="bg-blue-500 text-white px-3 py-1 rounded text-sm hover:bg-blue-600">
+                            В корзину
+                        </button>
+                    </form>
                 </div>
             </div>
 
